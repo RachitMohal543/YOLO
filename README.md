@@ -42,9 +42,10 @@ Originally developed under the **"YOLOv8 Flutter for Military Applications"** in
 .
 ├── MainActivity.kt               # Native Android entry point
 ├── attire_only_detection.py      # Python script for attire-specific YOLO detection
+├── convert_i_model.py            # Model conversion/export script (e.g., YOLO to TFLite/ONNX)
 ├── tflite_flutter_helper.dart    # Helper class for Flutter TFLite integration
+├── final_yolo_flutter_android.zip# Compressed Android project build/assets
 ├── pubspec.yaml                  # Flutter project dependencies
 ├── build.gradle                  # Android build configuration
 ├── gradle-wrapper.properties     # Gradle wrapper properties
-├── styles.xml                    # Android styling configurations
-└── README.md                     # Project documentation
+└── styles.xml                    # Android styling configurations
